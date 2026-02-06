@@ -19,7 +19,7 @@ const Banner = () => {
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['MechEngineer', 
+                                                        ['Mech Engineer', 
                                                             'AI Enthusiast',],
                                                     autoStart: true,
                                                     loop: true,
