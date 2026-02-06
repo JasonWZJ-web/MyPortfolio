@@ -1,21 +1,23 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Zijian Wang';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `MS student in CMU | AI/ML Engineer | Mech Engineer`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'USA',
+  City: 'Pittsburgh, PA',
+
 };
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
-    level: '75%',
+    title: 'Python',
+    level: '50%',
   },
-  {
-    title: 'React Developer',
-    level: '91%',
+  { title: 'PyTorch', level: '50%' },
+  { title: 'AutoCAD', level: '70%' },
+  /* //{
+    title: '',
+    level: '',
   },
   // {
   //   title: 'Desktop Application Developer',
@@ -28,40 +30,24 @@ export const SKILLS = [
   {
     title: 'Technical Blogger',
     level: '83%',
-  },
+  }, */
 ];
 
 export const TECH_STACK = [
-  'JavaScript',
-  'ReactJS',
-  'NextJS',
-  'TypeScript',
-  'NodeJS',
-  'Redux',
-  'Zustand',
-  'CSS',
-  'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
-  'REST API',
-  'MongoDB',
+  'AutoCAD',
+  'Matlab',
+  'Python',
   'MySQL',
-  'Git',
-  'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
+  "PyTorch",
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'zijianw@andrew.cmu.edu',
+  PHONE: 'N/A',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/JasonWZJ-web',
+  LINKEDIN: 'https://www.linkedin.com/in/zijianwang2025/',
+  TWITTER: '',
+  FACEBOOK: '',
 };

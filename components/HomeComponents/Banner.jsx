@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, I am Zijian!</h1>
                             </div>
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
@@ -19,8 +19,8 @@ const Banner = () => {
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['MERN Stack Developer',
-                                                            'NexJs Developer'],
+                                                        ['MechEngineer', 
+                                                            'AI Enthusiast',],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -32,7 +32,7 @@ const Banner = () => {
                             <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" /> 
                         </div>
                     </div>
                 </div>
@@ -41,24 +41,24 @@ const Banner = () => {
                 <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>10+</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>4+</span>
                         <span className='text-xs text-Snow'>Completed Projects</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>8+</span>
-                        <span className='text-xs text-Snow'>Freelance Clients</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>MS</span>
+                        <span className='text-xs text-Snow'>@ Carnegie Mellon</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>5+</span>
-                        <span className='text-xs text-Snow'>Honors & Awards</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>ML/RO</span>
+                        <span className='text-xs text-Snow'>Focus</span>
                     </div>
 
-                    <div className="flex items-center gap-x-1">
+                    {/* <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
                         <span className='text-xs text-Snow'>Opensource Projects</span>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

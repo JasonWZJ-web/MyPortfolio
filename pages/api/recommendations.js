@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 const recommendationCard = [
-  {
+ /*  {
     id: 0,
     name: 'Shahmir Minhas',
     image: "images/shahmir.jfif",
@@ -31,7 +31,7 @@ const recommendationCard = [
     designation: 'MERN Stack Developer at Productbox',
     view: "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
     linkednURL: "https://www.linkedin.com/in/muhammadullahafridi/"
-  },
+  }, */
 ]
 export default function handler(req, res) {
   res.status(200).json(recommendationCard)

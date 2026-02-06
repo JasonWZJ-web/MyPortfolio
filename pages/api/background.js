@@ -1,7 +1,7 @@
 const background = [
     {
         eduCards: [
-            {
+            /* {
                 id: 0,
                 title: 'UET Peshawar',
                 degree: 'BS, Computer System Engineering',
@@ -21,12 +21,12 @@ const background = [
                 degree: 'SSC, Science Subjects',
                 detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
                 year: '2013-2015'
-            },
+            }, */
         ]
     },
     {
         expCards: [
-            {
+            /* {
                 id: 1,
                 title: 'JMM Technologies',
                 role: 'Frontend Developer',
@@ -52,7 +52,7 @@ const background = [
                 desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
                 year: '09/2020 - 02/2021',
                 location: 'Peshawar, Pakistan'
-            },
+            }, */
 
         ]
     }

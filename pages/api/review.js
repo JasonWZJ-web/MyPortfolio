@@ -1,5 +1,5 @@
 const review = [
-    {
+   /*  {
         id: 0,
         clientName: 'Mustafash',
         clientLocation: 'Egypt',
@@ -26,8 +26,8 @@ const review = [
         clientLocation: 'France',
         clientSource: 'Fiverr',
         clientReview: 'I have worked with Osama and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment.'
-    },
-]
+    }, */
+] 
 export default function handler(req, res) {
     res.status(200).json(review)
 }
